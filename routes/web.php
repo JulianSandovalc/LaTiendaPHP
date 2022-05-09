@@ -48,4 +48,8 @@ Route::get('Paises', function(){
     
 });
 
+route::get('prueba', function(){
+    return view('productos.create');
+});
+
 
